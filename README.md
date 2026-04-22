@@ -1,19 +1,10 @@
 # 🛒 Retail Sales Data Analysis
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white" />
-</p>
-
-<h1 align="center">Retail Sales Data Analysis</h1>
-<p align="center">
-  End-to-end data analysis project using Excel, Python, SQL, and Power BI
+  <img src="https://img.shields.io/badge/Python-Analysis-blue?style=for-the-badge&logo=python"/>
+  <img src="https://img.shields.io/badge/SQL-MySQL-orange?style=for-the-badge&logo=mysql"/>
+  <img src="https://img.shields.io/badge/Excel-Data-green?style=for-the-badge&logo=microsoft-excel"/>
+ 
 </p>
 
 ---
@@ -24,23 +15,21 @@ This project covers the complete workflow from data cleaning and preprocessing t
 The aim is to understand sales trends, customer behavior, product performance, and revenue patterns for better business decision-making.
 
 ---
-
 ## 📑 Table of Contents
-- Project Overview
-- Objectives
-- Tools and Technologies
-- Dataset
-- Project Architecture
-- Project Workflow
-- Project Structure
-- Installation
-- Analysis Performed
-- Key Insights
-- Dashboard Preview
-- Project Outcome
-- Future Enhancements
-- About Me
-- Contact
+- [Project Overview](#-project-overview)
+- [Objectives](#-objectives)
+- [Tools & Technologies](#-tools--technologies)
+- [Dataset](#-dataset)
+- [Project Architecture](#-project-architecture)
+- [Project Workflow](#-project-workflow)
+- [Project Structure](#-project-structure)
+- [Installation](#-installation)
+- [Key Insights](#-key-insights)
+- [Dashboard](#-dashboard-and-output)
+- [Project Outcome](#-project-outcome)
+- [Future Enhancements](#-future-enhancements)
+- [About Me](#-about-me)
+- [Contact](#-contact)
 
 ---
 
@@ -56,32 +45,11 @@ The aim is to understand sales trends, customer behavior, product performance, a
 ---
 
 ## 🛠️ Tools and Technologies
-
-### Languages and Libraries
-- Python
-- SQL
-- Pandas
-- NumPy
-- Matplotlib
-
-### Platforms and Tools
-- Jupyter Notebook
-- MySQL
-- Microsoft Excel
-- Power BI
-
-### Tools and Technologies Icons
-<p>
-  <img src="https://skillicons.dev/icons?i=python,mysql" />
-</p>
-<p>
-  <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=plotly&logoColor=white" />
-</p>
+## 🛠️ Tools & Technologies
+- **Python** (Pandas, NumPy, Matplotlib)  
+- **SQL** (MySQL)  
+- **Excel**  
+- **Power BI**  
 
 ---
 
@@ -110,27 +78,6 @@ This dataset is used to:
 
 ---
 
-## 🏗️ Project Architecture
-
-Retail Sales Data Analysis Architecture
-
-Raw Retail Dataset  
-        ↓  
-Data Cleaning and Preprocessing  
-(Python / Excel)  
-        ↓  
-Exploratory Data Analysis  
-(Python)  
-        ↓  
-Business Query Analysis  
-(MySQL / SQL)  
-        ↓  
-Dashboard and Visual Reporting  
-(Power BI)  
-        ↓  
-Insights and Conclusions  
-
----
 
 ## 🔄 Project Workflow
 
@@ -163,31 +110,7 @@ Insights and Conclusions
 - Presented insights using graphs and KPI cards
 
 ---
-
-## 📁 Project Structure
-
-retail-sales-data-analysis/  
-│  
-├── README.md                              # Project documentation  
-├── requirements.txt                       # Python dependencies  
-├── main.py                                # Main execution file  
-│  
-├── data/                                  # Dataset folder  
-│   ├── raw/  
-│   │   └── retail_sales_data.xlsx         # Original dataset  
-│   └── processed/  
-│       └── cleaned_retail_data.xlsx       # Cleaned dataset  
-│  
-├── notebooks/                             # Jupyter notebooks  
-│   └── retail_sales_analysis.ipynb        # Analysis notebook  
-│  
-├── sql/                                   # SQL scripts  
-│   └── retail_sales_queries.sql           # SQL analysis queries  
-│  
-├── src/                                   # Python source files  
-│   ├── __init__.py  
-│   ├── data_cleaning.py                   # Data cleaning functions  
-│   ├── preprocessing.py                   # Data preprocessing logic  
+ # Data preprocessing logic  
 │   ├── analysis.py                        # Analysis functions  
 │   └── visualization.py                   # Plot generation code  
 │  
@@ -200,8 +123,6 @@ retail-sales-data-analysis/
 │   ├── top_products.png  
 │   └── payment_method_distribution.png  
 │  
-└── images/                                # Project screenshots  
-    └── dashboard_preview.png              # Dashboard image  
 
 ---
 
