@@ -44,7 +44,6 @@ The aim is to understand sales trends, customer behavior, product performance, a
 
 ---
 
-## 🛠️ Tools and Technologies
 ## 🛠️ Tools & Technologies
 - **Python** (Pandas, NumPy, Matplotlib)  
 - **SQL** (MySQL)  
@@ -110,21 +109,6 @@ This dataset is used to:
 - Presented insights using graphs and KPI cards
 
 ---
- # Data preprocessing logic  
-│   ├── analysis.py                        # Analysis functions  
-│   └── visualization.py                   # Plot generation code  
-│  
-├── dashboard/                             # Power BI dashboard  
-│   └── retail_sales_dashboard.pbix        # Power BI file  
-│  
-├── outputs/                               # Generated charts and outputs  
-│   ├── monthly_sales_trend.png  
-│   ├── category_sales_analysis.png  
-│   ├── top_products.png  
-│   └── payment_method_distribution.png  
-│  
-
----
 
 ## ⚙️ Installation
 
@@ -163,8 +147,6 @@ jupyter notebook
 - Customer transaction behavior showed repeat purchasing patterns
 
 ---
-
-
 
 ## 🚀 Project Outcome
 This project helped in developing practical skills in:
